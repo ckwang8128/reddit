@@ -260,12 +260,12 @@ def inject_test_data(num_links=25, num_comments=25, num_votes=5):
     """Flood your reddit install with test data based on reddit.com."""
 
     print ">>>> Ensuring configured objects exist"
-    system_user = ensure_account(g.system_user)
-    ensure_account(g.automoderator_account)
-    ensure_subreddit(g.default_sr, system_user)
-    ensure_subreddit(g.takedown_sr, system_user)
-    ensure_subreddit(g.beta_sr, system_user)
-    ensure_subreddit(g.promo_sr_name, system_user)
+    # system_user = ensure_account(g.system_user)
+    # ensure_account(g.automoderator_account)
+    # ensure_subreddit(g.default_sr, system_user)
+    # ensure_subreddit(g.takedown_sr, system_user)
+    # ensure_subreddit(g.beta_sr, system_user)
+    # ensure_subreddit(g.promo_sr_name, system_user)
 
     print
     print
